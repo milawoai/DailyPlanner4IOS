@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56F5DFA34B8FCBD28BFE0D09 /* libPods-DailyPlanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F45F7CCE7A93712965ACBA /* libPods-DailyPlanner.a */; };
 		CB4FDBC31D0EB6FF00568423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBC21D0EB6FF00568423 /* main.m */; };
 		CB4FDBC61D0EB6FF00568423 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBC51D0EB6FF00568423 /* AppDelegate.m */; };
 		CB4FDBC91D0EB6FF00568423 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBC81D0EB6FF00568423 /* ViewController.m */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FF14AE3D4FCFFAFC3F49E82 /* Pods-DailyPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		98F45F7CCE7A93712965ACBA /* libPods-DailyPlanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DailyPlanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9E47FA42B40E7F355C7EDB /* Pods-DailyPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner.release.xcconfig"; sourceTree = "<group>"; };
 		CB4FDBBE1D0EB6FF00568423 /* DailyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4FDBC21D0EB6FF00568423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB4FDBC41D0EB6FF00568423 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F5DFA34B8FCBD28BFE0D09 /* libPods-DailyPlanner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49E4ED063E06CA93E524EEB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FF14AE3D4FCFFAFC3F49E82 /* Pods-DailyPlanner.debug.xcconfig */,
+				9C9E47FA42B40E7F355C7EDB /* Pods-DailyPlanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD4031B6FFC86F5441AC2417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98F45F7CCE7A93712965ACBA /* libPods-DailyPlanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB4FDBB51D0EB6FF00568423 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +109,8 @@
 				CB4FDBDD1D0EB6FF00568423 /* DailyPlannerTests */,
 				CB4FDBE81D0EB6FF00568423 /* DailyPlannerUITests */,
 				CB4FDBBF1D0EB6FF00568423 /* Products */,
+				49E4ED063E06CA93E524EEB3 /* Pods */,
+				AD4031B6FFC86F5441AC2417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB4FDBEE1D0EB6FF00568423 /* Build configuration list for PBXNativeTarget "DailyPlanner" */;
 			buildPhases = (
+				09D9AF52EB6E9906D1599B8F /* 📦 Check Pods Manifest.lock */,
 				CB4FDBBA1D0EB6FF00568423 /* Sources */,
 				CB4FDBBB1D0EB6FF00568423 /* Frameworks */,
 				CB4FDBBC1D0EB6FF00568423 /* Resources */,
+				0BC7441C1A47B45D4334EF6B /* 📦 Embed Pods Frameworks */,
+				668AB4067BB18F4C3755E9B7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +300,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09D9AF52EB6E9906D1599B8F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0BC7441C1A47B45D4334EF6B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668AB4067BB18F4C3755E9B7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB4FDBBA1D0EB6FF00568423 /* Sources */ = {
@@ -423,6 +498,7 @@
 		};
 		CB4FDBEF1D0EB6FF00568423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF14AE3D4FCFFAFC3F49E82 /* Pods-DailyPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
@@ -435,6 +511,7 @@
 		};
 		CB4FDBF01D0EB6FF00568423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9E47FA42B40E7F355C7EDB /* Pods-DailyPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
@@ -510,6 +587,7 @@
 				CB4FDBF01D0EB6FF00568423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4FDBF11D0EB6FF00568423 /* Build configuration list for PBXNativeTarget "DailyPlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +596,7 @@
 				CB4FDBF31D0EB6FF00568423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB4FDBF41D0EB6FF00568423 /* Build configuration list for PBXNativeTarget "DailyPlannerUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +605,7 @@
 				CB4FDBF61D0EB6FF00568423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

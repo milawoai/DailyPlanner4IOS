@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - JTCalendar (2.1.7)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core (= 2.1.8)
+    - ReactiveCocoa/no-arc (= 2.1.8)
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - STAlertView (1.0.0)
+  - TMCache (2.1.0)
+  - YYModel (1.0.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.0)
+  - CocoaLumberjack (~> 2.2.0)
+  - JTCalendar (~> 2.1.5)
+  - ReactiveCocoa (~> 2.1.8)
+  - SDWebImage (~> 3.7.1)
+  - STAlertView (~> 1.0.0)
+  - TMCache (~> 2.1.0)
+  - YYModel (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  JTCalendar: bc7f3086a4df02aa2e02ac4d505ef888cc2283a0
+  ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  STAlertView: bfcbdfed87dc7bfb35c04acd5d96aecebb923d48
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+
+PODFILE CHECKSUM: 3a39ff0dcded7133833a114fa943f64bfe1d02e4
+
+COCOAPODS: 1.0.0
