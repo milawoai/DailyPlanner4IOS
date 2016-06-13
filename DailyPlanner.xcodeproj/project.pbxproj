@@ -210,6 +210,12 @@
 				TargetAttributes = {
 					CB4FDBBD1D0EB6FF00568423 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 25X2DD87R3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					CB4FDBD91D0EB6FF00568423 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -420,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.DailyPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.DailyPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
