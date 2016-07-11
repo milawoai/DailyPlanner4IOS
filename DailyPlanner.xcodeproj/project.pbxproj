@@ -8,15 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		56F5DFA34B8FCBD28BFE0D09 /* libPods-DailyPlanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F45F7CCE7A93712965ACBA /* libPods-DailyPlanner.a */; };
+		CB20D7251D33442600C8784F /* DPLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20D7241D33442600C8784F /* DPLNavigationController.m */; };
+		CB20D7281D33445200C8784F /* DPLResistanceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB20D7271D33445200C8784F /* DPLResistanceHelper.m */; };
+		CB21A1FA1D21813500AB5AAE /* DPLLeftDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB21A1F81D21813500AB5AAE /* DPLLeftDrawerController.m */; };
+		CB21A1FB1D21813500AB5AAE /* DPLLeftDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB21A1F81D21813500AB5AAE /* DPLLeftDrawerController.m */; };
+		CB21A1FC1D21813500AB5AAE /* DPLLeftDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB21A1F81D21813500AB5AAE /* DPLLeftDrawerController.m */; };
+		CB21A1FD1D21813500AB5AAE /* DPLLeftDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21A1F91D21813500AB5AAE /* DPLLeftDrawerController.xib */; };
+		CB21A1FE1D21813500AB5AAE /* DPLLeftDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21A1F91D21813500AB5AAE /* DPLLeftDrawerController.xib */; };
+		CB21A1FF1D21813500AB5AAE /* DPLLeftDrawerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB21A1F91D21813500AB5AAE /* DPLLeftDrawerController.xib */; };
+		CB4F62211D0ED04F009C3178 /* UIImage+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4F62201D0ED04F009C3178 /* UIImage+helpers.m */; };
+		CB4F62221D0ED04F009C3178 /* UIImage+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4F62201D0ED04F009C3178 /* UIImage+helpers.m */; };
+		CB4F62231D0ED04F009C3178 /* UIImage+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4F62201D0ED04F009C3178 /* UIImage+helpers.m */; };
 		CB4FDBC31D0EB6FF00568423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBC21D0EB6FF00568423 /* main.m */; };
 		CB4FDBC61D0EB6FF00568423 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBC51D0EB6FF00568423 /* AppDelegate.m */; };
 		CB4FDBC91D0EB6FF00568423 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBC81D0EB6FF00568423 /* ViewController.m */; };
 		CB4FDBCC1D0EB6FF00568423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4FDBCA1D0EB6FF00568423 /* Main.storyboard */; };
 		CB4FDBCF1D0EB6FF00568423 /* DailyPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBCD1D0EB6FF00568423 /* DailyPlanner.xcdatamodeld */; };
-		CB4FDBD11D0EB6FF00568423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4FDBD01D0EB6FF00568423 /* Assets.xcassets */; };
 		CB4FDBD41D0EB6FF00568423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4FDBD21D0EB6FF00568423 /* LaunchScreen.storyboard */; };
 		CB4FDBDF1D0EB6FF00568423 /* DailyPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBDE1D0EB6FF00568423 /* DailyPlannerTests.m */; };
 		CB4FDBEA1D0EB6FF00568423 /* DailyPlannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FDBE91D0EB6FF00568423 /* DailyPlannerUITests.m */; };
+		CBB766571D1BE8D500D18892 /* DPLlaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766551D1BE8D500D18892 /* DPLlaunchViewController.m */; };
+		CBB766581D1BE8D500D18892 /* DPLlaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766551D1BE8D500D18892 /* DPLlaunchViewController.m */; };
+		CBB766591D1BE8D500D18892 /* DPLlaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766551D1BE8D500D18892 /* DPLlaunchViewController.m */; };
+		CBB7665A1D1BE8D500D18892 /* DPLlaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB766561D1BE8D500D18892 /* DPLlaunchViewController.xib */; };
+		CBB7665B1D1BE8D500D18892 /* DPLlaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB766561D1BE8D500D18892 /* DPLlaunchViewController.xib */; };
+		CBB7665C1D1BE8D500D18892 /* DPLlaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB766561D1BE8D500D18892 /* DPLlaunchViewController.xib */; };
+		CBB7665F1D1BFE8800D18892 /* DPLStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB7665E1D1BFE8800D18892 /* DPLStyle.m */; };
+		CBB766601D1BFE8800D18892 /* DPLStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB7665E1D1BFE8800D18892 /* DPLStyle.m */; };
+		CBB766611D1BFE8800D18892 /* DPLStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB7665E1D1BFE8800D18892 /* DPLStyle.m */; };
+		CBB766681D1C0A1F00D18892 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB766671D1C0A1F00D18892 /* Assest.xcassets */; };
+		CBB766691D1C0A1F00D18892 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB766671D1C0A1F00D18892 /* Assest.xcassets */; };
+		CBB7666A1D1C0A1F00D18892 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB766671D1C0A1F00D18892 /* Assest.xcassets */; };
+		CBB7667A1D1C0C5200D18892 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766721D1C0C5200D18892 /* MMDrawerBarButtonItem.m */; };
+		CBB7667B1D1C0C5200D18892 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766721D1C0C5200D18892 /* MMDrawerBarButtonItem.m */; };
+		CBB7667C1D1C0C5200D18892 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766721D1C0C5200D18892 /* MMDrawerBarButtonItem.m */; };
+		CBB7667D1D1C0C5200D18892 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766741D1C0C5200D18892 /* MMDrawerController.m */; };
+		CBB7667E1D1C0C5200D18892 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766741D1C0C5200D18892 /* MMDrawerController.m */; };
+		CBB7667F1D1C0C5200D18892 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766741D1C0C5200D18892 /* MMDrawerController.m */; };
+		CBB766801D1C0C5200D18892 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766771D1C0C5200D18892 /* MMDrawerVisualState.m */; };
+		CBB766811D1C0C5200D18892 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766771D1C0C5200D18892 /* MMDrawerVisualState.m */; };
+		CBB766821D1C0C5200D18892 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766771D1C0C5200D18892 /* MMDrawerVisualState.m */; };
+		CBB766831D1C0C5200D18892 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766791D1C0C5200D18892 /* UIViewController+MMDrawerController.m */; };
+		CBB766841D1C0C5200D18892 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766791D1C0C5200D18892 /* UIViewController+MMDrawerController.m */; };
+		CBB766851D1C0C5200D18892 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766791D1C0C5200D18892 /* UIViewController+MMDrawerController.m */; };
+		CBB7668A1D1C11BC00D18892 /* DPLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766891D1C11BC00D18892 /* DPLMainViewController.m */; };
+		CBB7668B1D1C11BC00D18892 /* DPLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766891D1C11BC00D18892 /* DPLMainViewController.m */; };
+		CBB7668C1D1C11BC00D18892 /* DPLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB766891D1C11BC00D18892 /* DPLMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +77,15 @@
 		8FF14AE3D4FCFFAFC3F49E82 /* Pods-DailyPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner.debug.xcconfig"; sourceTree = "<group>"; };
 		98F45F7CCE7A93712965ACBA /* libPods-DailyPlanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DailyPlanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9E47FA42B40E7F355C7EDB /* Pods-DailyPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-DailyPlanner/Pods-DailyPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		CB20D7231D33442600C8784F /* DPLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLNavigationController.h; path = Classes/Main/Controller/DPLNavigationController.h; sourceTree = "<group>"; };
+		CB20D7241D33442600C8784F /* DPLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLNavigationController.m; path = Classes/Main/Controller/DPLNavigationController.m; sourceTree = "<group>"; };
+		CB20D7261D33445200C8784F /* DPLResistanceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLResistanceHelper.h; path = Classes/InituUtility/DPLResistanceHelper.h; sourceTree = "<group>"; };
+		CB20D7271D33445200C8784F /* DPLResistanceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLResistanceHelper.m; path = Classes/InituUtility/DPLResistanceHelper.m; sourceTree = "<group>"; };
+		CB21A1F71D21813500AB5AAE /* DPLLeftDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLLeftDrawerController.h; path = Classes/LeftDrawer/Controller/DPLLeftDrawerController.h; sourceTree = "<group>"; };
+		CB21A1F81D21813500AB5AAE /* DPLLeftDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLLeftDrawerController.m; path = Classes/LeftDrawer/Controller/DPLLeftDrawerController.m; sourceTree = "<group>"; };
+		CB21A1F91D21813500AB5AAE /* DPLLeftDrawerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DPLLeftDrawerController.xib; path = Classes/LeftDrawer/Controller/DPLLeftDrawerController.xib; sourceTree = "<group>"; };
+		CB4F621F1D0ED04F009C3178 /* UIImage+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+helpers.h"; path = "Classes/Categories/UIImage+helpers.h"; sourceTree = "<group>"; };
+		CB4F62201D0ED04F009C3178 /* UIImage+helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+helpers.m"; path = "Classes/Categories/UIImage+helpers.m"; sourceTree = "<group>"; };
 		CB4FDBBE1D0EB6FF00568423 /* DailyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4FDBC21D0EB6FF00568423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB4FDBC41D0EB6FF00568423 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,7 +94,6 @@
 		CB4FDBC81D0EB6FF00568423 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB4FDBCB1D0EB6FF00568423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB4FDBCE1D0EB6FF00568423 /* DailyPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyPlanner.xcdatamodel; sourceTree = "<group>"; };
-		CB4FDBD01D0EB6FF00568423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB4FDBD31D0EB6FF00568423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4FDBD51D0EB6FF00568423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB4FDBDA1D0EB6FF00568423 /* DailyPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +102,25 @@
 		CB4FDBE51D0EB6FF00568423 /* DailyPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4FDBE91D0EB6FF00568423 /* DailyPlannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyPlannerUITests.m; sourceTree = "<group>"; };
 		CB4FDBEB1D0EB6FF00568423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB766451D1BE59300D18892 /* DPLMacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLMacroDefine.h; path = Classes/InituUtility/DPLMacroDefine.h; sourceTree = "<group>"; };
+		CBB766461D1BE62F00D18892 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CBB766541D1BE8D500D18892 /* DPLlaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLlaunchViewController.h; path = Classes/Launch/Controller/DPLlaunchViewController.h; sourceTree = "<group>"; };
+		CBB766551D1BE8D500D18892 /* DPLlaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLlaunchViewController.m; path = Classes/Launch/Controller/DPLlaunchViewController.m; sourceTree = "<group>"; };
+		CBB766561D1BE8D500D18892 /* DPLlaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DPLlaunchViewController.xib; path = Classes/Launch/Controller/DPLlaunchViewController.xib; sourceTree = "<group>"; };
+		CBB7665D1D1BFE8800D18892 /* DPLStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLStyle.h; path = Classes/InituUtility/DPLStyle.h; sourceTree = "<group>"; };
+		CBB7665E1D1BFE8800D18892 /* DPLStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLStyle.m; path = Classes/InituUtility/DPLStyle.m; sourceTree = "<group>"; };
+		CBB766671D1C0A1F00D18892 /* Assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assest.xcassets; sourceTree = "<group>"; };
+		CBB766711D1C0C5200D18892 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = ThirdParty/MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		CBB766721D1C0C5200D18892 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = ThirdParty/MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		CBB766731D1C0C5200D18892 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = ThirdParty/MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
+		CBB766741D1C0C5200D18892 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = ThirdParty/MMDrawerController/MMDrawerController.m; sourceTree = "<group>"; };
+		CBB766751D1C0C5200D18892 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "ThirdParty/MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		CBB766761D1C0C5200D18892 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = ThirdParty/MMDrawerController/MMDrawerVisualState.h; sourceTree = "<group>"; };
+		CBB766771D1C0C5200D18892 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = ThirdParty/MMDrawerController/MMDrawerVisualState.m; sourceTree = "<group>"; };
+		CBB766781D1C0C5200D18892 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "ThirdParty/MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		CBB766791D1C0C5200D18892 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "ThirdParty/MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		CBB766881D1C11BC00D18892 /* DPLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPLMainViewController.h; path = Classes/Main/Controller/DPLMainViewController.h; sourceTree = "<group>"; };
+		CBB766891D1C11BC00D18892 /* DPLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPLMainViewController.m; path = Classes/Main/Controller/DPLMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +166,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB20D7221D33438600C8784F /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetWork;
+			sourceTree = "<group>";
+		};
+		CB4F621D1D0ECF1C009C3178 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB20D7221D33438600C8784F /* NetWork */,
+				CBC8385A1D21801700DA505E /* LeftDrawer */,
+				CBB766861D1C10D200D18892 /* Main */,
+				CBB766471D1BE7EE00D18892 /* Launch */,
+				CBB766431D1BE4E200D18892 /* InitUtility */,
+				CB4F621E1D0ECFF2009C3178 /* Categories */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		CB4F621E1D0ECFF2009C3178 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CB4F621F1D0ED04F009C3178 /* UIImage+helpers.h */,
+				CB4F62201D0ED04F009C3178 /* UIImage+helpers.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		CB4FDBB51D0EB6FF00568423 = {
 			isa = PBXGroup;
 			children = (
@@ -127,16 +220,19 @@
 		CB4FDBC01D0EB6FF00568423 /* DailyPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				CBB7666B1D1C0BA400D18892 /* ThirdParty */,
+				CB4F621D1D0ECF1C009C3178 /* Classes */,
 				CB4FDBC41D0EB6FF00568423 /* AppDelegate.h */,
 				CB4FDBC51D0EB6FF00568423 /* AppDelegate.m */,
 				CB4FDBC71D0EB6FF00568423 /* ViewController.h */,
 				CB4FDBC81D0EB6FF00568423 /* ViewController.m */,
 				CB4FDBCA1D0EB6FF00568423 /* Main.storyboard */,
-				CB4FDBD01D0EB6FF00568423 /* Assets.xcassets */,
 				CB4FDBD21D0EB6FF00568423 /* LaunchScreen.storyboard */,
 				CB4FDBD51D0EB6FF00568423 /* Info.plist */,
 				CB4FDBCD1D0EB6FF00568423 /* DailyPlanner.xcdatamodeld */,
 				CB4FDBC11D0EB6FF00568423 /* Supporting Files */,
+				CBB766461D1BE62F00D18892 /* PrefixHeader.pch */,
+				CBB766671D1C0A1F00D18892 /* Assest.xcassets */,
 			);
 			path = DailyPlanner;
 			sourceTree = "<group>";
@@ -165,6 +261,121 @@
 				CB4FDBEB1D0EB6FF00568423 /* Info.plist */,
 			);
 			path = DailyPlannerUITests;
+			sourceTree = "<group>";
+		};
+		CBB766431D1BE4E200D18892 /* InitUtility */ = {
+			isa = PBXGroup;
+			children = (
+				CB20D7261D33445200C8784F /* DPLResistanceHelper.h */,
+				CB20D7271D33445200C8784F /* DPLResistanceHelper.m */,
+				CBB766451D1BE59300D18892 /* DPLMacroDefine.h */,
+				CBB7665D1D1BFE8800D18892 /* DPLStyle.h */,
+				CBB7665E1D1BFE8800D18892 /* DPLStyle.m */,
+			);
+			name = InitUtility;
+			sourceTree = "<group>";
+		};
+		CBB766471D1BE7EE00D18892 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				CBB7664A1D1BE81F00D18892 /* View */,
+				CBB766481D1BE7FC00D18892 /* Controller */,
+				CBB766491D1BE80900D18892 /* Model */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		CBB766481D1BE7FC00D18892 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBB766541D1BE8D500D18892 /* DPLlaunchViewController.h */,
+				CBB766551D1BE8D500D18892 /* DPLlaunchViewController.m */,
+				CBB766561D1BE8D500D18892 /* DPLlaunchViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CBB766491D1BE80900D18892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CBB7664A1D1BE81F00D18892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CBB7666B1D1C0BA400D18892 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				CBB766701D1C0BDD00D18892 /* MMDrawerController */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		CBB766701D1C0BDD00D18892 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				CBB766711D1C0C5200D18892 /* MMDrawerBarButtonItem.h */,
+				CBB766721D1C0C5200D18892 /* MMDrawerBarButtonItem.m */,
+				CBB766731D1C0C5200D18892 /* MMDrawerController.h */,
+				CBB766741D1C0C5200D18892 /* MMDrawerController.m */,
+				CBB766751D1C0C5200D18892 /* MMDrawerController+Subclass.h */,
+				CBB766761D1C0C5200D18892 /* MMDrawerVisualState.h */,
+				CBB766771D1C0C5200D18892 /* MMDrawerVisualState.m */,
+				CBB766781D1C0C5200D18892 /* UIViewController+MMDrawerController.h */,
+				CBB766791D1C0C5200D18892 /* UIViewController+MMDrawerController.m */,
+			);
+			name = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		CBB766861D1C10D200D18892 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CBB766871D1C10E200D18892 /* controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CBB766871D1C10E200D18892 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB20D7231D33442600C8784F /* DPLNavigationController.h */,
+				CB20D7241D33442600C8784F /* DPLNavigationController.m */,
+				CBB766881D1C11BC00D18892 /* DPLMainViewController.h */,
+				CBB766891D1C11BC00D18892 /* DPLMainViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		CBC8385A1D21801700DA505E /* LeftDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8385C1D21802D00DA505E /* View */,
+				CBC8385B1D21802400DA505E /* Controller */,
+			);
+			name = LeftDrawer;
+			sourceTree = "<group>";
+		};
+		CBC8385B1D21802400DA505E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB21A1F71D21813500AB5AAE /* DPLLeftDrawerController.h */,
+				CB21A1F81D21813500AB5AAE /* DPLLeftDrawerController.m */,
+				CB21A1F91D21813500AB5AAE /* DPLLeftDrawerController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CBC8385C1D21802D00DA505E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +490,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB21A1FD1D21813500AB5AAE /* DPLLeftDrawerController.xib in Resources */,
 				CB4FDBD41D0EB6FF00568423 /* LaunchScreen.storyboard in Resources */,
-				CB4FDBD11D0EB6FF00568423 /* Assets.xcassets in Resources */,
+				CBB7665A1D1BE8D500D18892 /* DPLlaunchViewController.xib in Resources */,
+				CBB766681D1C0A1F00D18892 /* Assest.xcassets in Resources */,
 				CB4FDBCC1D0EB6FF00568423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +502,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB766691D1C0A1F00D18892 /* Assest.xcassets in Resources */,
+				CBB7665B1D1BE8D500D18892 /* DPLlaunchViewController.xib in Resources */,
+				CB21A1FE1D21813500AB5AAE /* DPLLeftDrawerController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +512,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB7666A1D1C0A1F00D18892 /* Assest.xcassets in Resources */,
+				CBB7665C1D1BE8D500D18892 /* DPLlaunchViewController.xib in Resources */,
+				CB21A1FF1D21813500AB5AAE /* DPLLeftDrawerController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,10 +573,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB766571D1BE8D500D18892 /* DPLlaunchViewController.m in Sources */,
+				CBB766801D1C0C5200D18892 /* MMDrawerVisualState.m in Sources */,
+				CBB766831D1C0C5200D18892 /* UIViewController+MMDrawerController.m in Sources */,
+				CBB7665F1D1BFE8800D18892 /* DPLStyle.m in Sources */,
 				CB4FDBCF1D0EB6FF00568423 /* DailyPlanner.xcdatamodeld in Sources */,
+				CB21A1FA1D21813500AB5AAE /* DPLLeftDrawerController.m in Sources */,
+				CBB7667A1D1C0C5200D18892 /* MMDrawerBarButtonItem.m in Sources */,
+				CB20D7281D33445200C8784F /* DPLResistanceHelper.m in Sources */,
+				CB4F62211D0ED04F009C3178 /* UIImage+helpers.m in Sources */,
+				CB20D7251D33442600C8784F /* DPLNavigationController.m in Sources */,
+				CBB7667D1D1C0C5200D18892 /* MMDrawerController.m in Sources */,
 				CB4FDBC91D0EB6FF00568423 /* ViewController.m in Sources */,
 				CB4FDBC61D0EB6FF00568423 /* AppDelegate.m in Sources */,
 				CB4FDBC31D0EB6FF00568423 /* main.m in Sources */,
+				CBB7668A1D1C11BC00D18892 /* DPLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +595,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB766581D1BE8D500D18892 /* DPLlaunchViewController.m in Sources */,
+				CBB7667B1D1C0C5200D18892 /* MMDrawerBarButtonItem.m in Sources */,
+				CB21A1FB1D21813500AB5AAE /* DPLLeftDrawerController.m in Sources */,
+				CBB7667E1D1C0C5200D18892 /* MMDrawerController.m in Sources */,
 				CB4FDBDF1D0EB6FF00568423 /* DailyPlannerTests.m in Sources */,
+				CBB766811D1C0C5200D18892 /* MMDrawerVisualState.m in Sources */,
+				CBB766841D1C0C5200D18892 /* UIViewController+MMDrawerController.m in Sources */,
+				CBB766601D1BFE8800D18892 /* DPLStyle.m in Sources */,
+				CB4F62221D0ED04F009C3178 /* UIImage+helpers.m in Sources */,
+				CBB7668B1D1C11BC00D18892 /* DPLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +612,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB766591D1BE8D500D18892 /* DPLlaunchViewController.m in Sources */,
+				CBB7667C1D1C0C5200D18892 /* MMDrawerBarButtonItem.m in Sources */,
+				CB21A1FC1D21813500AB5AAE /* DPLLeftDrawerController.m in Sources */,
+				CBB7667F1D1C0C5200D18892 /* MMDrawerController.m in Sources */,
 				CB4FDBEA1D0EB6FF00568423 /* DailyPlannerUITests.m in Sources */,
+				CBB766821D1C0C5200D18892 /* MMDrawerVisualState.m in Sources */,
+				CBB766851D1C0C5200D18892 /* UIViewController+MMDrawerController.m in Sources */,
+				CBB766611D1BFE8800D18892 /* DPLStyle.m in Sources */,
+				CB4F62231D0ED04F009C3178 /* UIImage+helpers.m in Sources */,
+				CBB7668C1D1C11BC00D18892 /* DPLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +749,8 @@
 			baseConfigurationReference = 8FF14AE3D4FCFFAFC3F49E82 /* Pods-DailyPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DailyPlanner/PrefixHeader.pch";
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,6 +764,8 @@
 			baseConfigurationReference = 9C9E47FA42B40E7F355C7EDB /* Pods-DailyPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DailyPlanner/PrefixHeader.pch";
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

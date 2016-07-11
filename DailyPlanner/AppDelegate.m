@@ -7,16 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "DPLlaunchViewController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, weak) UIImageView *imageView;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:SCREEN_BOUNDS];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[DPLlaunchViewController alloc] init];
     return YES;
 }
 
